@@ -34,12 +34,12 @@ along with Gcov; see the file COPYING3.  If not see
 /* Need an option to show individual block counts, and show
    probabilities of fall through arcs.  */
 
-//#include "config.h"
+#include "config.h"
 #include "system.h"
-//#include "coretypes.h"
-//#include "tm.h"
-//#include "intl.h"
-//#include "version.h"
+#include "coretypes.h"
+#include "tm.h"
+#include "intl.h"
+#include "version.h"
 
 #include <getopt.h>
 
@@ -366,12 +366,12 @@ main (int argc, char **argv)
   int first_arg;
 
   /* Unlock the stdio streams.  */
-  //unlock_std_streams ();
+  unlock_std_streams ();
 
-  //gcc_init_libintl ();
+  gcc_init_libintl ();
 
   /* Handle response files.  */
-  //expandargv (&argc, &argv);
+  expandargv (&argc, &argv);
 
   argno = process_args (argc, argv);
   if (optind == argc)
@@ -568,43 +568,25 @@ generate_results (const char *file_name)
 
   for (src = sources; src; src = src->next)
     src->lines = XCNEWVEC (line_t, src->num_lines);
+
   for (fn = functions; fn; fn = fn->next)
     {
       coverage_t coverage;
-	  block_t* iblk;
-	  unsigned int i;
-
       memset (&coverage, 0, sizeof (coverage));
       coverage.name = fn->name;
       add_line_counts (flag_function_summary ? &coverage : NULL, fn);
+	  /*
       if (flag_function_summary)
 	{
 	  function_summary (&coverage, "Function");
 	  fnotice (stdout, "\n");
-	}
-	  printf("@func %s\n",fn->name);
-	  printf(" @src %s\n",fn->src->name);
-	  printf(" @blocks %d\n",fn->num_blocks);
-	  for(iblk=fn->blocks;iblk-fn->blocks!=fn->num_blocks;iblk++){
-		  arc_t* iarc;
-		  printf("  @block %llx\n",(u64)iblk);
-		  printf("   @lines");
-		  for(i=0;i<iblk->u.line.num;i++)
-			  printf(" %u",iblk->u.line.encoding[i]);
-		  printf("\n");
-		  printf("   @arcs_out\n");
-		  for(iarc=iblk->succ,i=0;iarc;iarc=iarc->succ_next,i++){
-			  printf("    @arc %d\n",i);
-			  printf("     @dest %llx\n",(u64)iarc->dst);
-			  printf("     @hit %lld\n",(u64)iarc->count);
-			  printf("     @cycle_back %d\n",(int)iarc->cycle);
-		  }
-	  }
     }
-
+	*/
+	}
   for (src = sources; src; src = src->next)
     {
       accumulate_line_counts (src);
+	  /*
       function_summary (&src->coverage, "File");
       if (flag_gcov_file)
 	{
@@ -627,7 +609,49 @@ generate_results (const char *file_name)
 	  free (gcov_file_name);
 	}
       fnotice (stdout, "\n");
+	  */
     }
+//grapland add start
+  {
+	FILE *f = fopen ("bbtrack.out", "w");
+	if(!f)printf("the opt file cannot be created or written to.\n");
+	else{
+		for (fn = functions; fn; fn = fn->next)
+    {
+	  block_t* iblk;
+	  unsigned int i;
+	  fprintf(f,"@func %s\n",fn->name);
+	  fprintf(f," @src %s\n",fn->src->name);
+	  fprintf(f," @src_idx %u\n",fn->src->index);
+	  fprintf(f," @blocks %d\n",fn->num_blocks);
+	  for(iblk=fn->blocks;iblk-fn->blocks!=fn->num_blocks;iblk++){
+		  arc_t* iarc;
+		  fprintf(f,"  @block %llx\n",(u64)iblk);
+		  fprintf(f,"   @lines");
+		  for(i=0;i<iblk->u.line.num;i++)
+			  fprintf(f," %u",iblk->u.line.encoding[i]);
+		  fprintf(f,"\n");
+
+		  fprintf(f,"   @arcs_in_cnt ");
+		  for(iarc=iblk->pred,i=0;iarc;iarc=iarc->pred_next,i++);
+		  fprintf(f,"%d\n",i);
+
+		  fprintf(f,"   @arcs_out ");
+		  for(iarc=iblk->succ,i=0;iarc;iarc=iarc->succ_next,i++);
+		  fprintf(f,"%d\n",i);
+		  for(iarc=iblk->succ,i=0;iarc;iarc=iarc->succ_next,i++){
+			  fprintf(f,"    @arc %d\n",i);
+			  fprintf(f,"     @dest %llx\n",(u64)iarc->dst);
+			  fprintf(f,"     @hit %lld\n",(u64)iarc->count);
+			  fprintf(f,"     @cycle_back %d\n",(int)iarc->cycle);
+		  }
+	  }
+    }
+   fclose(f);
+	}
+  }
+//grapland add stop
+
 }
 
 /* Release all memory used.  */
