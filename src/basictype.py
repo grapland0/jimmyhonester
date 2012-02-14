@@ -1,21 +1,22 @@
 #!/usr/bin/python
 import os,sys
 
-def GrammerErr(Exception):
+class GrammerError:
 	def __init__(self,err,line):
 		self.msg="Grammer error '%s' in Line: '%s'.\n"%(err,line)
 	def __repr__(self):
 		return self.msg
 
-def parse_rrl(fn):
+def parse_rr(fn):
 	while True:
-		ln=fn.getnext()
-		parts=ln.strip().spilt()
+		ln=fn.next()
+		parts=ln.strip().split()
 		if(len(parts)==0):
 			continue
 		ide=ln.find('@')
 		if(ide<0 or len(parts)<1 or not parts[0].startswith('@')):
-			raise GrammerErr('Illegal marking format',ln)
+			raise GrammerError('Illegal marking format',ln)
+#print ((ide,parts[0][1:],parts[1:],ln))
 		return (ide,parts[0][1:],parts[1:],ln)
 
 class arc_t:
@@ -26,19 +27,19 @@ class arc_t:
 		self.cycle=iscycle
 	def parse(self,fi,tide):
 		while True:
-			(ide,var,[cont],ln)=parse_rr(fi)
+			(ide,var,conts,ln)=parse_rr(fi)
 			if(ide==tide and var=='.arc'):
 				break
 			if(ide!=tide+1):
 				raise GrammerError('Illegal indent',ln)
 			if(var=='dest'):
-				self.dest=cont
-			else if(var=='hit'):
-				self.hit=long(cont)
-			else if(var=='cycle'):
-			 	self.iscycle=bool(int(cont))
-			else if(var=='fake'):
-				self.isfake=bool(int(cont))
+				self.dest=conts[0]
+			elif(var=='hit'):
+				self.hit=long(conts[0])
+			elif(var=='cycle'):
+			 	self.iscycle=bool(int(conts[0]))
+			elif(var=='fake'):
+				self.isfake=bool(int(conts[0]))
 			else:
 				raise GrammerError('Illegal mark:'+var,ln)
 	def __repr__(self):
@@ -58,7 +59,7 @@ class block_t:
 				raise GrammerError('Illegal indent',ln)
 			if(var=='lines'):
 				self.lines=map(lambda x:int(x),conts)
-			else if(var=='arc')
+			elif(var=='arc'):
 				arc=arc_t('',0,False,False)
 				arc.parse(fi,ide)
 				self.arcs.append(arc)
@@ -74,17 +75,17 @@ class func_t:
 		self.blocks=blocks
 	def parse(self,fi,tide):
 		while True:
-			(ide,var,[cont],ln)=parse_rr(fi)
+			(ide,var,conts,ln)=parse_rr(fi)
 			if(ide==tide and var=='.func'):
 				break
 			if(ide!=tide+1):
 				raise GrammerError('Illegal indent',ln)
 			if(var=='src'):
-				self.src=cont
-			else if(var=='block')
-				blk=block_t(cont,[],[])
+				self.src=conts[0]
+			elif(var=='block'):
+				blk=block_t(conts[0],[],[])
 				blk.parse(fi,ide)
-				self.blocks[blk.name]=blk
+				self.blocks[blk.bid]=blk
 			else:
 				raise GrammerError('Illegal mark:'+var,ln)
 	def __repr__(self):
@@ -96,13 +97,13 @@ class rr_t:
 		self.funcs=funcs
 	def parse(self,fi,tide):
 		while True:
-			(ide,var,[cont],ln)=parse_rr(fi)
+			(ide,var,conts,ln)=parse_rr(fi)
 			if(ide==tide and var=='.rr'):
 				break
 			if(ide!=tide+1):
 				raise GrammerError('Illegal indent',ln)
-			else if(var=='func')
-				func=func_t(cont,'',{})
+			elif(var=='func'):
+				func=func_t(conts[0],'',{})
 				func.parse(fi,ide)
 				self.funcs[func.name]=func
 			else:
@@ -113,18 +114,18 @@ class rr_t:
 class rrreader:
 	def __init__(self,fname):
 		self.f=open(fname,'r')
-		self.fi=f.__iter__();
+		self.fi=self.f.__iter__();
 	def __del__(self):
 		self.f.close()
 	def __iter__(self):
 		return self
-	def getnext(self):
-		(ide,var,[cont],ln)=parse_rr(fi)
+	def next(self):
+		(ide,var,[cont],ln)=parse_rr(self.fi)
 		if(ide!=0):
 			raise GrammerError('Illegal indent',ln)
-		if(var='rr'):
+		if(var=='rr'):
 			rr=rr_t(cont,{})
-			rr.parse(fi,ide)
+			rr.parse(self.fi,ide)
 			return rr
 		else:
 			raise GrammerError('Illegal mark:'+var,ln)
