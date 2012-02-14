@@ -620,10 +620,10 @@ generate_results (const char *file_name)
     {
 	  block_t* iblk;
 	  unsigned int i;
-	  fprintf(f,"@func %s\n",fn->name);
-	  fprintf(f," @src %s\n",fn->src->name);
-	  fprintf(f," @src_idx %u\n",fn->src->index);
-	  fprintf(f," @blocks %d\n",fn->num_blocks);
+	  fprintf(f," @func %s\n",fn->name);
+	  fprintf(f,"  @src %s\n",fn->src->name);
+	  //fprintf(f," @src_idx %u\n",fn->src->index);
+	  //fprintf(f,"  @blocks %d\n",fn->num_blocks);
 	  for(iblk=fn->blocks;iblk-fn->blocks!=fn->num_blocks;iblk++){
 		  arc_t* iarc;
 		  fprintf(f,"  @block %llx\n",(u64)iblk);
@@ -632,6 +632,7 @@ generate_results (const char *file_name)
 			  fprintf(f," %u",iblk->u.line.encoding[i]);
 		  fprintf(f,"\n");
 
+		  /*
 		  fprintf(f,"   @arcs_in_cnt ");
 		  for(iarc=iblk->pred,i=0;iarc;iarc=iarc->pred_next,i++);
 		  fprintf(f,"%d\n",i);
@@ -639,13 +640,18 @@ generate_results (const char *file_name)
 		  fprintf(f,"   @arcs_out ");
 		  for(iarc=iblk->succ,i=0;iarc;iarc=iarc->succ_next,i++);
 		  fprintf(f,"%d\n",i);
+		  */
 		  for(iarc=iblk->succ,i=0;iarc;iarc=iarc->succ_next,i++){
-			  fprintf(f,"    @arc %d\n",i);
-			  fprintf(f,"     @dest %llx\n",(u64)iarc->dst);
-			  fprintf(f,"     @hit %lld\n",(u64)iarc->count);
-			  fprintf(f,"     @cycle_back %d\n",(int)iarc->cycle);
+			  fprintf(f,"   @arc %d\n",i);
+			  fprintf(f,"    @dest %llx\n",(u64)iarc->dst);
+			  fprintf(f,"    @hit %lld\n",(u64)iarc->count);
+			  fprintf(f,"    @cycle %d\n",(int)iarc->cycle);
+			  fprintf(f,"    @fake %d\n",(int)iarc->fake);
+			  fprintf(f,"   @.arc\n");
 		  }
+		  fprintf(f,"  @.block\n");
 	  }
+	  fprintf(f," @.func\n");
     }
    fclose(f);
 	}
