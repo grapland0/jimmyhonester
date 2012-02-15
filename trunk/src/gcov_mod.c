@@ -645,7 +645,7 @@ generate_results (const char *file_name)
 			  fprintf(f,"   @arc %d\n",i);
 			  fprintf(f,"    @dest %llx\n",(u64)iarc->dst);
 			  fprintf(f,"    @hit %lld\n",(u64)iarc->count);
-			  fprintf(f,"    @cycle %d\n",(int)iarc->cycle);
+			  //fprintf(f,"    @cycle %d\n",(int)iarc->cycle);
 			  fprintf(f,"    @fake %d\n",(int)iarc->fake);
 			  fprintf(f,"   @.arc\n");
 		  }
