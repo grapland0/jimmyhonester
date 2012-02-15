@@ -8,11 +8,11 @@ def main(fname):
 	for it in rd:
 		print(it,)
 		for itf in it.funcs.itervalues():
-			print(" "+str(itf),)
+			print "\t"+str(itf),
 			for itb in itf.blocks.itervalues():
-				print("  "+str(itb),)
+				print "\t\t"+str(itb),
 				for ita in itb.arcs:
-					print("   "+str(ita),)
+					print "\t\t\t"+str(ita),
 
 if __name__=='__main__':
 	if(len(sys.argv)==2):
