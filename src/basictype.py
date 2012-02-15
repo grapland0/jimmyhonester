@@ -36,14 +36,14 @@ class arc_t:
 				self.dest=conts[0]
 			elif(var=='hit'):
 				self.hit=long(conts[0])
-			elif(var=='cycle'):
-			 	self.cycle=bool(int(conts[0]))
+#			elif(var=='cycle'):
+#			 	self.cycle=False#bool(int(conts[0]))
 			elif(var=='fake'):
 				self.fake=bool(int(conts[0])==1)
 			else:
 				raise GrammerError('Illegal mark:'+var,ln)
 	def __repr__(self):
-		return "ARC_TO: %s, FAKE:%d, HIT:%d\n"%(self.dest,1 if self.fake else 0,self.hit)
+		return "ARC_TO: %s, FAKE: %d, CYCLE: %d, HIT:%d\n"%(self.dest,1 if self.fake else 0,1 if self.cycle else 0,self.hit)
 
 class block_t:
 	def __init__(self,bid,lines,arcs):
@@ -89,7 +89,7 @@ class func_t:
 			else:
 				raise GrammerError('Illegal mark:'+var,ln)
 	def __repr__(self):
-		return "FUNC: %s, BLOCK_CNT: %d\n"%(self.name,len(self.blocks))
+		return "FUNC: %s, BLOCK_CNT: %d, SRC: %s\n"%(self.name,len(self.blocks),self.src)
 
 class rr_t:
 	def __init__(self,rid,funcs):
