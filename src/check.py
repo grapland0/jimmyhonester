@@ -30,10 +30,12 @@ def main(fname):
 			check_DAG(itf)
 		mtd[it.rid]=calcmetric(it)
 	print "\nMatching."
+	for it in mtd.iterkeys():
+		print it+" ",
+	print ""
 	for ka,va in mtd.iteritems():
-		print "RR %s: "%ka,
 		for kb,vb in mtd.iteritems():
-			print "%s=%.4f "%(kb,calcmatch(va,vb)),
+			print "%.4f\t"%(calcmatch(va,vb)),
 		print ""
 
 if __name__=='__main__':
