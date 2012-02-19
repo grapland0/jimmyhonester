@@ -7,6 +7,11 @@ import os,sys,sqlite3
 	insert into codes (cid,code,lid) values (zzzzzz)
 """
 
+#when use multi_line,this func return a sql stmt when given a file reader iter.
+def getnxtsql(ifi):
+	a=ifi.next().strip()
+	return a+ifi.next().strip()
+
 def main(fsql,fdata,opt):
 	db=sqlite3.connect(opt)
 	c=db.cursor()
@@ -18,12 +23,16 @@ def main(fsql,fdata,opt):
 	c.execute("create table data(data  BLOB)")
 	db.commit()
 	fs=open(fsql,'r')
-	for ln in fs:
-		c.execute(ln.strip())
+	ifs=fs.__iter__()
+	try:
+		while True:
+			stmt=getnxtsql(ifs)
+			c.execute(stmt)
+	except StopIteration:pass
 	db.commit()
 	fs.close()
 	fd=open(fdata,'rb')
-	c.execute("insert into data values (?)",sqlite3.Binary(fd.read()))
+	c.execute("insert into data values (?)",(sqlite3.Binary(fd.read()),))
 	fd.close()
 	db.commit()
 	db.close()
