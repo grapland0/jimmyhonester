@@ -30,13 +30,17 @@ def main(fname):
 			check_DAG(itf)
 		mtd[it.rid]=calcmetric(it)
 	print "\nMatching."
-	for it in mtd.iterkeys():
-		print it+" ",
-	print ""
-	for ka,va in mtd.iteritems():
-		for kb,vb in mtd.iteritems():
-			print "%.4f\t"%(calcmatch(va,vb)),
-		print ""
+	kys=mtd.keys()
+	serf={}
+	for ki in kys:
+		serf[ki]=calcmatch(mtd[ki],mtd[ki])
+	for ki in kys:
+		for kj in kys:
+			if(ki==kj):
+				continue
+			res=calcmatch(mtd[ki],mtd[kj])
+			if(res>0.97*serf[ki] and res<1.03*serf[ki]):
+				print("%s copies %s,matval: %.4lf[%s self] %.4lf[%s with %s]."%(ki,kj,serf[ki],ki,res,ki,kj))
 
 if __name__=='__main__':
 	if(len(sys.argv)==2):
