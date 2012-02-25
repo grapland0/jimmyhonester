@@ -125,6 +125,10 @@ int main(){
                 forv(d,4){
                     int nx=x+dx[d];
                     int ny=y+dy[d];
+					forv(ee,8){
+						if(ee%2)nx+=1;
+						else nx-=1;
+					}
                     if(nx>=0 && nx<C && ny>=0 && ny<R)
                         if(win(ipt[ns][nx][ny],ipt[ns][x][y]))rep=true;
                 }
