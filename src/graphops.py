@@ -47,8 +47,7 @@ def calc_branch_p(func):
 		if(ttl<0.5):
 			ib.probs=[]
 			continue
-		ib.probs=filter(lambda x:x>1e-6 and x<1-1e-6,\
-				map(lambda y:float(y.hit/ttl),ib.arcs))
+		ib.probs=map(lambda y:(y.dest,float(y.hit/ttl)),ib.arcs)
 
 def check_DAG_dfs(bid_unused,bid_dc,entry_bid,blks):
 	if(entry_bid not in bid_unused):

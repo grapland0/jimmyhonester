@@ -73,6 +73,7 @@ class func_t:
 		self.name=name
 		self.src=src
 		self.blocks=blocks
+		#self.entry_bid : producted in update_entry()
 	def parse(self,fi,tide):
 		while True:
 			(ide,var,conts,ln)=parse_rr(fi)
