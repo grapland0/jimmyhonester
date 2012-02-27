@@ -30,6 +30,8 @@ def main(fname):
 			combine_1in1out_block(itf)
 			calc_branch_p(itf)
 			check_DAG(itf)
+		if (it.rid in mtd):
+			raise Exception("Two code share one CID: %s."%it.rid)
 		mtd[it.rid]=calcmetric(it)
 	print "\nMatching."
 	kys=mtd.keys()
