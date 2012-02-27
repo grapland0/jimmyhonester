@@ -58,7 +58,7 @@ def calcmetric(rr):
 					dd[bid].bidfw.update(dd[blk.bid].bidfw)
 				else:
 					dd[bid].bidfw.add(blk.bid)
-	return sorted([(x.metval,sorted(map(lambda y:dd[y].metval,x.bidfw)))for x in dd.itervalues()],key=lambda z:z[0])
+	return sorted([(x.metval,sorted(map(lambda y:dd[y].metval,x.bidfw)))for x in dd.itervalues() if x.metval>1e-6],key=lambda z:z[0])
 
 def diffv(a,b):
 #	print str(10.0/(0.1+math.fabs(a-b)/max((a,b,1-a,1-b)))),
@@ -76,5 +76,6 @@ def maxfitting(la,lb,wgtfunc):
 	return m[a][b]
 
 def calcmatch(lla,llb):
+#print lla,llb
 	return maxfitting(lla,llb,lambda ai,aj:diffv(ai[0],aj[0])*3+maxfitting(ai[1],aj[1],diffv))
 
