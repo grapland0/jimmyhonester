@@ -46,17 +46,16 @@ def main(fname):
 		serf[ki]=calcmatch(mtd[ki],mtd[ki])
 	print "Calc mutual similarity."
 	cntn=0.0
-	for ki in kys:
-		cntn+=1.0
+	for i in xrange(0,len(kys)):
 		mtvs=[]
-		for kj in kys:
-			if(ki==kj):
-				continue
+		for j in xrange(0,i):
+			cntn+=1.0
+			ki,kj=(kys[i],kys[j])
 			res=calcmatch(mtd[ki],mtd[kj])
 			mtvs.append((kj,res,))
 			allmtvs.append((ki,kj,math.fabs(res/serf[ki]-1.0)))
 		mtvs.sort(key=lambda x:math.fabs(x[1]-serf[ki]))
-		print("[%.1f%%] Top 10 similar with Code %s (MTV:%.4lf)"%(cntn*100.0/float(cnt),ki,serf[ki]))
+		print("[%.1f%%] Top 10 similar with Code %s (MTV:%.4lf)"%(cntn*100.0/float(len(kys)**2/2),ki,serf[ki]))
 		for j in xrange(0,min(10,len(mtvs))):
 			print "\t%s: %.4lf"%(mtvs[j][0],mtvs[j][1])
 	allmtvs.sort(key=lambda x:x[2])
