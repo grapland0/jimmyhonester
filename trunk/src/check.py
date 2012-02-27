@@ -32,7 +32,11 @@ def main(fname):
 			check_DAG(itf)
 		if (it.rid in mtd):
 			raise Exception("Two code share one CID: %s."%it.rid)
-		mtd[it.rid]=calcmetric(it)
+		mtv=calcmetric(it)
+		if(len(mtv)==0):
+			print "\nCannot determine the MTV of code: %s."%it.rid
+		else:
+			mtd[it.rid]=mtv
 	print "\nMatching."
 	kys=mtd.keys()
 	serf={}
