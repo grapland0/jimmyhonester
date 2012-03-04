@@ -8,6 +8,7 @@ class GrammerError:
 		return self.msg
 
 def parse_rr(fn):
+	"""read an rr line and return the indent count, tag name, tag value(s) and raw line"""
 	while True:
 		ln=fn.next()
 		parts=ln.strip().split()
@@ -96,6 +97,8 @@ class rr_t:
 	def __init__(self,rid,funcs):
 		self.rid=rid
 		self.funcs=funcs
+		self.uid=0
+		self.pid=0
 	def parse(self,fi,tide):
 		while True:
 			(ide,var,conts,ln)=parse_rr(fi)
@@ -107,6 +110,10 @@ class rr_t:
 				func=func_t(conts[0],'',{})
 				func.parse(fi,ide)
 				self.funcs[func.name]=func
+			elif(var=='uid'):
+				self.uid=int(conts[0])
+			elif(var=='pid'):
+				self.pid=int(conts[0])
 			else:
 				raise GrammerError('Illegal mark:'+var,ln)
 	def __repr__(self):
