@@ -685,7 +685,7 @@ release_structures (void)
       for (ix = fn->num_blocks, block = fn->blocks; ix--; block++)
 	{
 	  arc_t *arc, *arc_n;
-
+	  free (block->u.line.encoding);
 	  for (arc = block->succ; arc; arc = arc_n)
 	    {
 	      arc_n = arc->succ_next;
@@ -1671,7 +1671,7 @@ add_line_counts (coverage_t *coverage, function_t *fn)
 	    line->exists = 1;
 	    line->count += block->count;
 	  }
-      free (block->u.line.encoding);
+      //free (block->u.line.encoding);
       block->u.cycle.arc = NULL;
       block->u.cycle.ident = ~0U;
 
