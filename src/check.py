@@ -3,7 +3,7 @@
 import os,sys,math
 from basictype import *
 from graphops import *
-from flowmetric_advanced import *
+from flowmetric_naive import *
 
 def print_rr(it):
 	print(it,)
