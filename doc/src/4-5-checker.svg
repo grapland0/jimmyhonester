@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="921.25983"
+   height="354.33069"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.1 r9760"
+   sodipodi:docname="4-5-checker.svg">
+  <defs
+     id="defs4">
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend"
+       style="overflow:visible">
+      <path
+         id="path4004"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient20906"
+       id="linearGradient20912"
+       x1="342.14285"
+       y1="854.15027"
+       x2="342.56128"
+       y2="897.50916"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(201.40088,-86.949344)" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient20906">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop20908" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="1"
+         id="stop20910" />
+    </linearGradient>
+    <linearGradient
+       y2="897.50916"
+       x2="342.56128"
+       y1="854.15027"
+       x1="342.14285"
+       gradientTransform="translate(-224.52813,-103.16899)"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient28324"
+       xlink:href="#linearGradient20906"
+       inkscape:collect="always" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient20906-4"
+       id="linearGradient20912-7"
+       x1="342.14285"
+       y1="854.15027"
+       x2="342.56128"
+       y2="897.50916"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(201.40088,-86.949344)" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient20906-4">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop20908-1" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="1"
+         id="stop20910-0" />
+    </linearGradient>
+    <linearGradient
+       y2="897.50916"
+       x2="342.56128"
+       y1="854.15027"
+       x1="342.14285"
+       gradientTransform="translate(465.47189,-108.88326)"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient28324-6"
+       xlink:href="#linearGradient20906-4"
+       inkscape:collect="always" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="1"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="543.00542"
+     inkscape:cy="170.03817"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="cm"
+     inkscape:object-paths="true"
+     inkscape:window-width="1280"
+     inkscape:window-height="747"
+     inkscape:window-x="0"
+     inkscape:window-y="26"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-698.03014)">
+    <rect
+       style="fill:url(#linearGradient28324);fill-opacity:1;stroke:#5500aa;stroke-width:1.77165353;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4891-9"
+       width="188.92107"
+       height="35.007294"
+       x="31.820858"
+       y="715.974"
+       ry="0" />
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="65.400963"
+       y="740.26697"
+       id="text5935-4"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5937-81"
+         x="65.400963"
+         y="740.26697">控制流图集合</tspan></text>
+    <rect
+       style="fill:url(#linearGradient28324-6);fill-opacity:1;stroke:#5500aa;stroke-width:1.77165353;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4891-9-7"
+       width="188.92107"
+       height="35.007294"
+       x="721.82086"
+       y="710.2597"
+       ry="0" />
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="755.401"
+       y="734.55267"
+       id="text5935-4-1"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5937-81-7"
+         x="755.401"
+         y="734.55267">文本报告</tspan></text>
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:2.0316658;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4891-5"
+       width="185.06677"
+       height="35.007294"
+       x="33.279022"
+       y="897.40253" />
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="45.320572"
+       y="921.46277"
+       id="text5935-2"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5937-8"
+         x="45.320572"
+         y="921.46277">读取控制流图集合</tspan></text>
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:1.77165353;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4891-5-6"
+       width="140.7283"
+       height="35.007294"
+       x="307.63153"
+       y="831.54535" />
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="328.24451"
+       y="855.60559"
+       id="text5935-2-2"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5937-8-5"
+         x="328.24451"
+         y="855.60559">分支量化</tspan></text>
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:2.39061308;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4891-5-9"
+       width="256.23734"
+       height="35.007294"
+       x="308.34579"
+       y="896.68823" />
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="328.9588"
+       y="920.74847"
+       id="text5935-2-5"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5937-8-7"
+         x="328.9588"
+         y="920.74847">分支量化，附加前驱信息</tspan></text>
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:1.134637;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4891-5-5"
+       width="57.721519"
+       height="35.007294"
+       x="646.34583"
+       y="831.54535" />
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="654.10162"
+       y="856.31989"
+       id="text5935-2-3"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5937-8-79"
+         x="654.10162"
+         y="856.31989">匹配</tspan></text>
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:1.54524183;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4891-5-61"
+       width="107.05742"
+       height="35.007294"
+       x="764.56348"
+       y="893.80859" />
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="780.12567"
+       y="918.87897"
+       id="text5935-2-52"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5937-8-8"
+         x="780.12567"
+         y="918.87897">报告生成</tspan></text>
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:2.39061308;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4891-5-9-4"
+       width="256.23734"
+       height="35.007294"
+       x="308.44843"
+       y="959.68829" />
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="329.06143"
+       y="983.74854"
+       id="text5935-2-5-0"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5937-8-7-1"
+         x="329.06143"
+         y="983.74854">分支量化，附加前驱信息</tspan></text>
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:1.134637;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4891-5-5-8"
+       width="57.721519"
+       height="35.007294"
+       x="647.72607"
+       y="896.68097" />
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="655.48187"
+       y="921.45551"
+       id="text5935-2-3-9"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5937-8-79-0"
+         x="655.48187"
+         y="921.45551">匹配</tspan></text>
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:1.134637;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4891-5-5-6"
+       width="57.721519"
+       height="35.007294"
+       x="648.68579"
+       y="959.68829" />
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="656.44165"
+       y="984.46283"
+       id="text5935-2-3-0"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5937-8-79-8"
+         x="656.44165"
+         y="984.46283">匹配</tspan></text>
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:1.134637;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4891-5-5-6-2"
+       width="57.721519"
+       height="35.007294"
+       x="576.96429"
+       y="959.68823" />
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="584.72015"
+       y="984.46277"
+       id="text5935-2-3-0-0"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5937-8-79-8-9"
+         x="584.72015"
+         y="984.46277">建图</tspan></text>
+    <rect
+       style="fill:none;stroke:#9d9d9d;stroke-width:2.46703911;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect3942"
+       width="428.86667"
+       height="54.256706"
+       x="299.0816"
+       y="820.13501" />
+    <rect
+       style="fill:none;stroke:#9d9d9d;stroke-width:2.46703911;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect3942-1"
+       width="428.86667"
+       height="54.256706"
+       x="299.27661"
+       y="947.92072" />
+    <rect
+       style="fill:none;stroke:#9d9d9d;stroke-width:2.46703911;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect3942-3"
+       width="428.86667"
+       height="54.256706"
+       x="299.27664"
+       y="884.92065" />
+    <rect
+       id="rect22949"
+       style="fill:none;stroke:#0c86f1;stroke-width:2.61263275;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.69444442;stroke-dasharray:none"
+       width="896.81158"
+       height="223.31728"
+       x="8.0574341"
+       y="797.91833"
+       ry="0"
+       rx="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
+       d="m 126.23615,750.98129 -0.3785,146.42124"
+       id="path3976"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect4891-9"
+       inkscape:connection-start-point="d4"
+       inkscape:connection-end="#rect4891-5"
+       inkscape:connection-end-point="d4" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
+       d="M 817.9195,893.80859 816.45408,745.267"
+       id="path3978"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect4891-5-61"
+       inkscape:connection-start-point="d4"
+       inkscape:connection-end="#rect4891-9-7"
+       inkscape:connection-end-point="d4" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
+       d="M 218.34579,898.76179 299.0816,847.1176"
+       id="path3980"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect4891-5"
+       inkscape:connection-start-point="d4"
+       inkscape:connection-end="#rect3942"
+       inkscape:connection-end-point="d4"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
+       d="m 218.34579,914.69341 80.93085,-0.20694"
+       id="path3982"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect4891-5"
+       inkscape:connection-start-point="d4"
+       inkscape:connection-end="#rect4891-5-9"
+       inkscape:connection-end-point="d4"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
+       d="m 218.34579,929.25333 80.93082,45.31016"
+       id="path3986"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect4891-5"
+       inkscape:connection-start-point="d4"
+       inkscape:connection-end="#rect3942-1"
+       inkscape:connection-end-point="d4"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
+       d="m 727.94827,848.67743 36.61521,51.37838"
+       id="path3988"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect3942"
+       inkscape:connection-start-point="d4"
+       inkscape:connection-end="#rect4891-5-61"
+       inkscape:connection-end-point="d4"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
+       d="m 728.14331,912.76335 36.42017,-0.58755"
+       id="path3992"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-end="#rect4891-5-61"
+       inkscape:connection-end-point="d4"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
+       d="m 728.14328,976.33478 36.4202,-48.94746"
+       id="path3994"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-end="#rect4891-5-61"
+       inkscape:connection-end-point="d4"
+       sodipodi:nodetypes="cc"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="227.15848"
+       y="867.25391"
+       id="text4442"
+       sodipodi:linespacing="125%"
+       inkscape:transform-center-x="-8.1386719"
+       inkscape:transform-center-y="-4.3740234"><tspan
+         sodipodi:role="line"
+         id="tspan4444"
+         x="227.15848"
+         y="867.25391">NAIVE</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="228.46649"
+       y="909.11664"
+       id="text4446"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4448"
+         x="228.46649"
+         y="909.11664">ADVANCED</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="227.0972"
+       y="969.34418"
+       id="text4450"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4452"
+         x="227.0972"
+         y="969.34418">INSANE</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="39.39595"
+       y="1046.2999"
+       id="text4454"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4456"
+         x="39.39595"
+         y="1046.2999">checker</tspan></text>
+  </g>
+</svg>

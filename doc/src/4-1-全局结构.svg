@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="496.06299"
+   height="248.03149"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.1 r9760"
+   sodipodi:docname="4-1-全局结构.svg">
+  <defs
+     id="defs4">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-91.753418 : 110.15775 : 1"
+       inkscape:vp_y="0 : 1114.5407 : 0"
+       inkscape:vp_z="513.18958 : 110.15775 : 1"
+       inkscape:persp3d-origin="210.71807 : 64.084215 : 1"
+       id="perspective5905" />
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lend"
+       style="overflow:visible;">
+      <path
+         id="path5103"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;marker-start:none;"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="1"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="262.89721"
+     inkscape:cy="116.67533"
+     inkscape:document-units="cm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="cm"
+     inkscape:snap-bbox="false"
+     inkscape:snap-bbox-edge-midpoints="false"
+     inkscape:snap-global="true"
+     inkscape:window-width="1280"
+     inkscape:window-height="747"
+     inkscape:window-x="0"
+     inkscape:window-y="26"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-804.32938)">
+    <rect
+       style="fill:#ffffff;stroke:#5500aa;stroke-width:1.77165353;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4111"
+       width="105.856"
+       height="34.989864"
+       x="20.280497"
+       y="882.36737" />
+    <rect
+       style="fill:#ffffff;stroke:#5500aa;stroke-width:1.77165353;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4891"
+       width="105.87344"
+       height="35.007294"
+       x="20.772238"
+       y="828.00177" />
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.52205873;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4893"
+       width="190.1996"
+       height="35.043503"
+       x="257.94193"
+       y="851.42566" />
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.45153457;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4895"
+       width="150.79375"
+       height="35.054638"
+       x="278.82135"
+       y="981.48016" />
+    <rect
+       style="fill:#ffffff;stroke:#ff0000;stroke-width:1.77165353;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4897"
+       width="105.9175"
+       height="35.051357"
+       x="18.602362"
+       y="979.13721" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:none;marker-end:url(#Arrow1Lend)"
+       d="M 126.64568,45.61856 257.94193,56.637123"
+       id="path4909"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect4891"
+       inkscape:connection-start-point="d4"
+       inkscape:connection-end="#rect4893"
+       inkscape:connection-end-point="d4"
+       transform="translate(0,804.32938)" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:none;marker-end:url(#Arrow1Lend)"
+       d="M 126.1365,89.685642 257.94193,75.124289"
+       id="path4911"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect4111"
+       inkscape:connection-start-point="d4"
+       inkscape:connection-end="#rect4893"
+       inkscape:connection-end-point="d4"
+       transform="translate(0,804.32938)" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:none;marker-end:url(#Arrow1Lend)"
+       d="m 353.20022,82.139782 0.85945,95.010998"
+       id="path4913"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect4893"
+       inkscape:connection-start-point="d4"
+       inkscape:connection-end="#rect4895"
+       inkscape:connection-end-point="d4"
+       transform="translate(0,804.32938)" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.99212599;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:none;marker-end:url(#Arrow1Lend)"
+       d="M 278.82135,998.38208 124.51987,997.10217"
+       id="path4915"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect4895"
+       inkscape:connection-start-point="d4"
+       inkscape:connection-end="#rect4897"
+       inkscape:connection-end-point="d4" />
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="29.227505"
+       y="850.12836"
+       id="text5935"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5937"
+         x="29.227505"
+         y="850.12836">文件输入</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="23.57065"
+       y="906.6969"
+       id="text5939"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5941"
+         x="23.57065"
+         y="906.6969">数据库输入</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="34.177254"
+       y="1004.2775"
+       id="text5943"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5945"
+         x="34.177254"
+         y="1004.2775">报告输出</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="265.16504"
+       y="879.11969"
+       id="text5947"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5949"
+         x="265.16504"
+         y="879.11969">统一格式工作数据集</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="202.93965"
+       y="211.26193"
+       id="text5951"
+       sodipodi:linespacing="125%"
+       transform="translate(0,804.32938)"><tspan
+         sodipodi:role="line"
+         id="tspan5953"
+         x="202.93965"
+         y="211.26193" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="173.94827"
+       y="213.38326"
+       id="text5955"
+       sodipodi:linespacing="125%"
+       transform="translate(0,804.32938)"><tspan
+         sodipodi:role="line"
+         id="tspan5957"
+         x="173.94827"
+         y="213.38326" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="284.25693"
+       y="1006.3989"
+       id="text5959"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5961"
+         x="284.25693"
+         y="1006.3989">控制流图数据集</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="147.78532"
+       y="42.26342"
+       id="text5963"
+       sodipodi:linespacing="125%"
+       transform="translate(0,804.32938)"><tspan
+         sodipodi:role="line"
+         id="tspan5965"
+         x="147.78532"
+         y="42.26342">buildPK_files</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="149.90663"
+       y="904.57556"
+       id="text5967"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5969"
+         x="149.90663"
+         y="904.57556">buildPK_DB</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="358.50314"
+       y="937.80957"
+       id="text5971"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5973"
+         x="358.50314"
+         y="937.80957">pk2rr</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="184.55487"
+       y="991.54968"
+       id="text5975"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5977"
+         x="184.55487"
+         y="991.54968">checker</tspan></text>
+  </g>
+</svg>
