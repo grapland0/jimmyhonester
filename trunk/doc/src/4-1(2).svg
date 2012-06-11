@@ -1,0 +1,693 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="708.66138"
+   height="389.76376"
+   id="svg24133"
+   version="1.1"
+   inkscape:version="0.48.1 r9760"
+   sodipodi:docname="4-1(2).svg"
+   inkscape:export-filename="/home/grapland/gd/jimmyhonester/doc/src/4-1(2).png"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300">
+  <defs
+     id="defs24135">
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mend"
+       style="overflow:visible">
+      <path
+         id="path15075"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lstart"
+       style="overflow:visible">
+      <path
+         id="path15066"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker22942"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path22944"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutL"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleOutL"
+       style="overflow:visible">
+      <path
+         id="path15209"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="scale(0.8,0.8)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker13147"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path13149"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient20906"
+       id="linearGradient20912"
+       x1="342.14285"
+       y1="854.15027"
+       x2="342.56128"
+       y2="897.50916"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(137.33986,-131.89605)" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient20906">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop20908" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="1"
+         id="stop20910" />
+    </linearGradient>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker24163"
+       style="overflow:visible">
+      <path
+         id="path24165"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker24167"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path24169"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker24171"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path24173"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient20906-6"
+       id="linearGradient20912-9"
+       x1="342.14285"
+       y1="854.15027"
+       x2="343.57144"
+       y2="897.4585"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-22.891196,-364.74128)" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient20906-6">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop20908-9" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="1"
+         id="stop20910-4" />
+    </linearGradient>
+    <linearGradient
+       y2="920.96881"
+       x2="345.59174"
+       y1="854.15027"
+       x1="342.14285"
+       gradientTransform="matrix(0.9466088,0,0,1.0004231,-86.632622,-132.37433)"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient24317"
+       xlink:href="#linearGradient20906-6"
+       inkscape:collect="always" />
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker13147-0"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path13149-8"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker24163-0"
+       style="overflow:visible">
+      <path
+         id="path24165-7"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker13147-0-3"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path13149-8-5"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker24163-8"
+       style="overflow:visible">
+      <path
+         id="path24165-8"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker13147-0-0"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path13149-8-3"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker24163-2"
+       style="overflow:visible">
+      <path
+         id="path24165-9"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker13147-0-2"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path13149-8-7"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker24163-6"
+       style="overflow:visible">
+      <path
+         id="path24165-4"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker13147-0-39"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path13149-8-36"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker24163-25"
+       style="overflow:visible">
+      <path
+         id="path24165-5"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker13147-0-6"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path13149-8-31"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+    <linearGradient
+       y2="920.96881"
+       x2="345.59174"
+       y1="854.15027"
+       x1="342.14285"
+       gradientTransform="matrix(0.73396741,0,0,1.0070976,-131.23399,-76.725049)"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient24317-3"
+       xlink:href="#linearGradient20906-6-9"
+       inkscape:collect="always" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient20906-6-9">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop20908-9-9" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="1"
+         id="stop20910-4-5" />
+    </linearGradient>
+    <filter
+       inkscape:collect="always"
+       id="filter6083">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="2.5382192"
+         id="feGaussianBlur6085" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="1"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="360.65647"
+     inkscape:cy="228.412"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="cm"
+     inkscape:object-paths="true"
+     inkscape:window-width="1280"
+     inkscape:window-height="747"
+     inkscape:window-x="0"
+     inkscape:window-y="26"
+     inkscape:window-maximized="1"
+     inkscape:snap-page="false"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-paths="true" />
+  <metadata
+     id="metadata24138">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-662.59781)">
+    <rect
+       style="fill:#ffffff;stroke:#0c86f1;stroke-width:1.77165353999999997;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4891-5"
+       width="194.14206"
+       height="35.007294"
+       x="153.3432"
+       y="854.48358" />
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="181.95618"
+       y="878.54382"
+       id="text5935-2"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5937-8"
+         x="181.95618"
+         y="878.54382">数据归一化模块</tspan></text>
+    <rect
+       style="opacity:0.4;fill:#ffffff;stroke:#ed9a05;stroke-width:1.77165353;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4891-3"
+       width="145.36679"
+       height="35.118641"
+       x="315.44196"
+       y="994.67596"
+       ry="11.464923" />
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.4;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="335.30609"
+       y="1019.001"
+       id="text5935-8"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5937-5"
+         x="335.30609"
+         y="1019.001">SQLite引擎</tspan></text>
+    <rect
+       style="opacity:0.35;fill:url(#linearGradient20912);fill-opacity:1;stroke:#5500aa;stroke-width:1.77165353000000003;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4891-9"
+       width="188.92107"
+       height="35.007294"
+       x="393.68887"
+       y="687.24683"
+       ry="0" />
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.35;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="427.26898"
+       y="711.53979"
+       id="text5935-4"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5937-81"
+         x="427.26898"
+         y="711.53979">教学OA平台</tspan></text>
+    <rect
+       style="opacity:0.35;fill:url(#linearGradient24317);fill-opacity:1;stroke:#5400aa;stroke-width:1.77165353000000003;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4891-9-1"
+       width="178.83435"
+       height="35.022102"
+       x="156.02959"
+       y="687.11517"
+       ry="0" />
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.35;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="182.54604"
+       y="711.41553"
+       id="text5935-4-2"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5937-81-9"
+         x="182.54604"
+         y="711.41553">在线评测系统</tspan></text>
+    <rect
+       style="fill:#ffffff;stroke:#0c86f1;stroke-width:1.77165354;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4891-5-6"
+       width="194.66911"
+       height="35.20491"
+       x="398.05548"
+       y="854.55261" />
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="419.41174"
+       y="878.216"
+       id="text25932"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan25934"
+         x="419.41174"
+         y="878.216"
+         style="font-size:20px">代码雷同检查器</tspan><tspan
+         sodipodi:role="line"
+         x="419.41174"
+         y="903.216"
+         style="font-size:20px"
+         id="tspan6057" /></text>
+    <rect
+       style="opacity:0.4;fill:#ffffff;stroke:#ed9a05;stroke-width:1.77165353;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4891-3-0"
+       width="61.827854"
+       height="35.007294"
+       x="481.79822"
+       y="994.46533"
+       ry="11.428572" />
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.4;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="492.39633"
+       y="1018.7349"
+       id="text5935-8-8"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5937-5-6"
+         x="492.39633"
+         y="1018.7349">GCC</tspan></text>
+    <rect
+       style="opacity:0.4;fill:#ffffff;stroke:#ed9a05;stroke-width:1.77165353;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4891-3-9"
+       width="77.250755"
+       height="35.007294"
+       x="558.16034"
+       y="994.46533"
+       ry="11.428572" />
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.4;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="568.75848"
+       y="1018.7348"
+       id="text5935-8-4"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5937-5-8"
+         x="568.75848"
+         y="1018.7348">GCOV</tspan></text>
+    <path
+       style="fill:#999999;stroke:#999999;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+       d="m 347.48526,872.05373 50.57022,0.0347"
+       id="path27210"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect4891-5"
+       inkscape:connection-start-point="d4"
+       inkscape:connection-end="#rect4891-5-6"
+       inkscape:connection-end-point="d4" />
+    <rect
+       style="opacity:0.4;fill:#ffffff;stroke:#ed9a05;stroke-width:1.77165353;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4891-3-7"
+       width="166.04498"
+       height="35.007294"
+       x="140.14001"
+       y="994.73163"
+       ry="11.428572" />
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.4;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="170.73811"
+       y="1019.0009"
+       id="text5935-8-7"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5937-5-4"
+         x="170.73811"
+         y="1019.0009">MySQL引擎</tspan></text>
+    <path
+       style="opacity:0.4;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.10500002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#marker24163);marker-end:none"
+       d="M 246.58204,854.34857 246.37796,723.57565"
+       id="path26008-5-5-6"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="opacity:0.4;fill:none;stroke:#000000;stroke-width:1.1073221;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:none;marker-end:url(#marker13147-0)"
+       d="M 488.14685,852.19705 487.94081,722.25414"
+       id="path26008-5-5-7"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="251.53062"
+       y="773.17773"
+       id="text3493"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="251.53062"
+         y="773.17773"
+         id="tspan6087">来自于不同数据源的</tspan><tspan
+         sodipodi:role="line"
+         x="251.53062"
+         y="793.17773"
+         id="tspan6091">作业代码和题目信息</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="492.94833"
+       y="772.5506"
+       id="text3497"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3499"
+         x="492.94833"
+         y="772.5506">易于处理的</tspan><tspan
+         sodipodi:role="line"
+         x="492.94833"
+         y="792.5506"
+         id="tspan6093">抄袭嫌疑报告</tspan></text>
+    <rect
+       id="rect22949-1"
+       style="opacity:0.35;fill:none;stroke:#5500aa;stroke-width:1.29725456000000006;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:1.29725457999999993, 2.59450914999999993;stroke-dashoffset:0.64862728999999997"
+       width="667.8399"
+       height="73.922081"
+       x="20.643629"
+       y="665.26337"
+       ry="0"
+       rx="0" />
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.35;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="30.304579"
+       y="728.4884"
+       id="text5095"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5097"
+         x="30.304579"
+         y="728.4884">系统需求方</tspan></text>
+    <rect
+       id="rect22949-1-9"
+       style="fill:none;stroke:#0c86f1;stroke-width:1.77165353;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0.64850001;filter:url(#filter6083)"
+       width="667.36481"
+       height="138.09674"
+       x="19.870989"
+       y="795.4248"
+       ry="0"
+       rx="0"
+       transform="matrix(1.0002179,0,0,0.83966214,0.93312241,144.77022)" />
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="36.033428"
+       y="911.95032"
+       id="text5117"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5119"
+         x="36.033428"
+         y="911.95032">反抄袭系统</tspan></text>
+    <rect
+       id="rect22949-1-5"
+       style="opacity:0.4;fill:none;stroke:#ed9a05;stroke-width:1.29725456;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:1.29725458, 2.59450915;stroke-dashoffset:0.64862729"
+       width="667.8399"
+       height="73.922081"
+       x="20.406044"
+       y="974.58832"
+       ry="0"
+       rx="0" />
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.4;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="30.304575"
+       y="1038.2195"
+       id="text5139"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5141"
+         x="30.304575"
+         y="1038.2195">基础工具</tspan></text>
+    <path
+       style="opacity:0.4;fill:#e6e6e6;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#marker24163-25);marker-end:url(#marker13147-0-6)"
+       d="m 376.29958,973.93969 0,-45.32677"
+       id="path3091"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>
